@@ -1,0 +1,25 @@
+body {
+  background-color: #f8f8f8;
+}
+
+p,textarea {
+  margin:0;
+  padding:0;
+}
+
+.top-line:after,.bottom-line:after {
+  content: '';
+  position:absolute;
+  left:15px;
+  width: 100%;
+  height:1px;
+  transform: scaleY(.5);
+  -webkit-transform: scaleY(.5);
+  background-color:#d9d9d9;
+}
+.bottom-line:after {
+  bottom:0;
+}
+.top-line:after {
+  top:0;
+}

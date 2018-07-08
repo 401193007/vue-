@@ -1,0 +1,74 @@
+.container {
+  padding:46px 0 70px;
+}
+.form-preview,.preview-wrap {
+  position:relative;
+  padding:10px 15px;
+  color:#333;
+  background-color: #fff;
+  overflow:hidden;
+}
+.preview-hd {
+  font-size:14px;
+  line-height:2;
+  overflow: hidden;
+}
+.preview-hd.high-box {
+  position:relative;
+  margin-right:-15px;
+  line-height:40px;    
+}
+.preview-hd label {
+  float:left;
+  margin-right:10px;
+  color:#999;
+  text-align:justify;
+  text-align-last:justify;
+  min-width:72px;
+}
+.preview-hd .preview-value {
+  display:block;
+  overflow:hidden;    
+}
+.fixed-bottom-wrap {
+  position: fixed;
+  bottom:0;
+  width: 100%;
+  left: 0;
+  z-index: 10;
+}
+.preview-wrap {
+  padding:0 15px;
+}
+.pop-wrap {
+  padding: 15px;
+}
+.pop-wrap label, .pop-wrap .textarea {
+  font-size: 14px;
+}
+.pop-wrap label {
+  display: block;
+  margin-bottom: 5px;
+}
+.pop-wrap .textarea {
+  box-sizing: border-box;
+  border-radius: 2px;
+  display: block;
+  width: 100%;
+  line-height:1.2;
+  -webkit-appearance:none;
+  border:1px solid #ccc;
+  padding: 10px;
+}
+.pop-wrap .btn-group {
+  text-align: center;
+  margin-top: 10px;
+}
+.pop-wrap .btn-group .van-button {
+  padding: 0 30px;
+  height: 36px;
+  line-height: 36px;
+}
+.pop-wrap .btn-group .van-button:first-child {
+  margin-right:30px;
+}
